@@ -1,0 +1,63 @@
+/* InnerHeader.css */
+.inner-header {
+  background-color: #fff7e6;
+  display: flex;
+  align-self: center;
+  font-size: x-small;
+  padding: 0%;
+  padding: 0.5rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: sans-serif;
+  gap: 1.5rem;
+}
+
+.inner-header img {
+  height: 50px; 
+
+}
+
+
+.info,
+.info-1,
+.info-2,
+.info-3 {
+  flex: 1;
+  padding-inline:1.5rem;
+  /* margin-left: 3rem; */
+  /* width: 25%; */
+  float: left;
+  box-sizing: border-box;
+}
+
+.info-demo{
+  padding-inline: 1rem;
+}
+
+.info p,
+.info-1 p,
+.info-2 p,
+.info-3 p {
+  margin-right: 1%;
+  font-size:larger;
+  width: 100%;
+
+}
+
+.subheader {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subheader p {
+  margin: 5px 0;
+}
+
+
+.select-class {
+  width :60px;
+ ;
+}

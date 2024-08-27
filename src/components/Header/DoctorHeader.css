@@ -1,0 +1,77 @@
+.header {
+  display: flex; 
+  padding-bottom: 5px; 
+  background-color: white ;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: small;
+}
+.header span {
+    font-size: 1rem;
+    display: flex;
+    color: black;
+    margin-left: auto;
+    align-items: center; 
+    
+}
+.header img {  
+  height: 38px;
+  align-self: center;
+}
+.icon {
+  color: rgba(8, 184, 125, 0.582);
+  font-size: 2rem;
+  display: inline;
+  justify-content: space-between;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+
+}
+
+
+.header .doctor-info {
+  display: flex; 
+  align-items:center; 
+  margin-right: 10px; 
+}
+
+.header .doctor-info img {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin-right: 10px; 
+  
+}
+
+.header .doctor-info p {
+  margin: 0; 
+  font-size: 1rem; 
+}
+
+
+.header-rightside{
+  display: flex;
+  align-items: center;
+
+}
+
+.icon-1{
+  color: black;
+}
+.logout-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0; /* Remove default padding */
+ 
+}
+
+.logout-icon {
+  font-size: 30px; /* Adjust icon size */
+  vertical-align: middle; /* Align the icon vertically */
+  margin-right: 5px; /* Adjust icon spacing */
+}

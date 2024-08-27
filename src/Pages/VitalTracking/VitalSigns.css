@@ -1,0 +1,268 @@
+.vital-container{
+  margin: 10px;
+}
+.vital-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2px;
+  height: 50px;
+}
+.vital-subcontainer {
+  margin-top: 10px;
+ 
+}
+.health-info {
+  display: flex;
+ 
+}
+.health-details {
+  flex: 1;
+}
+.vital-check {
+  flex: 3;
+  padding: 10px 20px;
+  
+}
+.rating {
+  flex: 1;
+}
+.labels {
+  margin-right: 4px;
+  font-weight: bold;
+ 
+}
+.vital-inputs {
+  padding: 2px;
+  border: 1px solid #ccc;
+  background: hsla(0, 0%, 80%, 0.348);
+  /* border-radius: 3px; */
+  width: 70px;
+  height: 70%;
+  margin-bottom: 10px;
+}
+.vital-input {
+  border: 2px solid #fff20056;
+  height: 70%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+.button-vital {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #fff20056;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+/*.button-vital:hover {
+    background-color: #0056b3;
+   } */
+
+.button-vital:focus {
+  outline: none;
+}
+.increment-button {
+  display: flex;
+  align-items: center;
+  size: 20px;
+}
+
+.counter {
+  width: 70px;
+  height: 70%;
+  text-align: center;
+  background: hsla(0, 0%, 80%, 0.348);
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+}
+
+.up-arrow,
+.down-arrow {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-bottom: 1px; /* Adjust margin between arrows */
+}
+
+.up-arrow:hover,
+.down-arrow:hover {
+  background-color: #0056b3;
+}
+
+.up-arrow:focus,
+.down-arrow:focus {
+  outline: none;
+}
+.input-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.input-row .health-label {
+  display: inline-block;
+  width: 150px;
+}
+
+.input-row input[type="text"] {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+}
+
+.input-row input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: top;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:hover,
+.rating input[type="radio"]:checked ~ label {
+  color: yellow;
+}
+
+
+.label-right{
+  margin-right: 3rem;
+}
+
+.label-right1{
+  margin-right: 6rem;
+  margin-top: 3px;
+}
+
+.label-right2{
+  margin-right: 2rem;
+}
+
+
+
+.vital-check {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.vital-check-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.vital-check-item label {
+  width: 100px;
+}
+.vital-signs-form {
+  width: 100%;
+}
+
+.form-group-vital {
+  width: 100%;
+  flex-direction: column;
+}
+
+.form-group-vital input {
+  max-width: 100px !important ;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-group-vital select {
+  max-width: 50px !important ;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-group-vital input[type="text"][placeholder="Notes"] {
+  flex-grow: 1;
+}
+
+.vital-labels{
+  display: flex;
+  width: fit-content;
+
+}
+
+.label {
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+.input-container-vital {
+  display: flex;
+  width: fit-content;
+}
+
+.input-container input[type="text"],
+.input-container select {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-container select {
+  max-width: 150px;
+}
+
+.input-container input[type="text"]:last-child {
+  margin-right: 0;
+}
+
+.input-container input[type="text"]::placeholder {
+  color: #ccc;
+}
+
+.input-container select {
+  padding: 10px;
+}
+
+.input-container select option {
+  padding: 5px;
+}
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+#rbs{
+  width: 43.5%;
+}
+
+#fbs{
+  width: 43.5%;
+}

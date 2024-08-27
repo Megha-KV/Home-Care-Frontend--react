@@ -1,0 +1,52 @@
+.card-button {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+  
+.edit-button,
+.delete-button,
+.new-button,
+.save-next-button {
+    padding: 1rem 1.5rem; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 0.5rem; 
+    margin-bottom: 0.5rem; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.edit-button .edit-button-icons,
+.delete-button .delete-button-icons,
+.new-button .new-button-icons,
+.save-next-button .save-next-button-icons {
+    color: #fff; 
+}
+  
+.edit-button {
+    background-color: #ff7f00;
+    color: #fff;
+}
+  
+.delete-button {
+    background-color: hsl(354, 73%, 44%);
+    color: #fff;
+}
+
+.save-next-button {
+    background-color: #0bc648;
+    color: #fff;
+}
+  
+.new-button {
+    background-color: #158e9bf6;
+    color: #fff;
+}
+

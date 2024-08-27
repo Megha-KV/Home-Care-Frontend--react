@@ -1,0 +1,85 @@
+.header-container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aliceblue; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mrn-conntainer,
+.cid-container {
+  padding: 1rem;
+}
+.retrieve-container {
+  padding: 1rem;
+}
+
+.ce-button {
+  margin-right: 12px;
+}
+.ce-inputs {
+  margin-right: 1rem;
+}
+.ce-label {
+  margin-right: 10px;
+}
+.ns-assign-table{
+  background-color: white;
+}
+
+.clinical-evaluation-sub-container {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 5px;
+}
+
+.clinical-evaluation-sub-container-left {
+  flex: 1;
+}
+
+.clinical-evaluation-sub-container-right {
+  flex: 3.2;
+}
+
+.op-details {
+  display: inline-block;
+  width: 25%;
+}
+
+.op-details .ce-label {
+  width: 200px;
+  padding-left: 5px;
+}
+
+.op-details .ce-label[for="cid"] {
+  margin-right: 3px;
+}
+
+.op-details .ce-input,
+.op-details .ce-select {
+  display: inline-block;
+  width: 350px !important;
+  padding: 6px;
+}
+
+.op-details-container {
+  display: flex;
+  text-align: left;
+  width: 300px;
+}
+
+/* Filename - App.css*/
+.clinical-table {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}

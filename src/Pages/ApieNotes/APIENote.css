@@ -1,0 +1,170 @@
+.nurse-notes {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-inline: 1rem;
+}
+.note-wrapper {
+  flex: 3;
+  width: 100%;
+}
+.history {
+  flex: 1;
+}
+.notes-header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.plus-sign {
+  font-size: 20px;
+  margin-right: 5px;
+  color: white;
+}
+/* Button container */
+.add-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  margin-right: 1rem;
+}
+
+/* Button hover effect */
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Button focus effect */
+.add-button:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+/* Button click effect */
+.add-button:active {
+  background-color: #004080;
+}
+
+/* Plus sign icon */
+.plus-sign {
+  margin-right: 5px;
+}
+
+/* Icon color */
+.add-button .plus-sign {
+  color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px; /* Adjust spacing between buttons */
+}
+.button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button .icon {
+  margin-right: auto;
+}
+
+.red {
+  background-color: hsl(354, 73%, 44%);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: #0bc648;
+}
+.note-icon {
+  font-size: 24px;
+  color: blue;
+  margin-top: auto;
+}
+
+/* History list container */
+.history {
+  margin-top: 3px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(48, 42, 42, 0.2);
+  transition: 0.3s;
+}
+.history-list {
+  margin-top: 34px;
+  margin-bottom: 15px;
+  background-color: #f0f0f0;
+}
+
+/* History item */
+.history-item {
+  margin-bottom: 10px;
+  border:  solid #ffff;
+  
+}
+
+/* History field */
+.history-field {
+   display: inline; 
+  margin-bottom: 5px;
+ 
+  margin-right: 10px; /* Adjust margin as needed */
+  width: 100px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  background-color: #f0f0f0;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}

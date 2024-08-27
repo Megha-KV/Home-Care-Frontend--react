@@ -1,0 +1,263 @@
+.ns-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.ns-right-section {
+  display: flex;
+}
+
+.sl-th {
+  width: 10% !important;
+}
+
+.ns-sub-container1 {
+  display: flex;
+}
+
+.ns-left-section {
+  flex: 1;
+  flex-direction: column;
+}
+
+.ns-left-section .ns-form-table {
+  background-color: #a0e7e5;
+}
+
+.ns-right-section {
+  background-color: #fff;
+  flex: 3;
+}
+
+.ns-form-table {
+  display: table;
+  width: 30%;
+  flex: 1.8;
+}
+
+.ns-form-table-right {
+  flex: 3;
+}
+.ns-form-row {
+  display: table-row;
+}
+.ns-label {
+  display: table-cell;
+  padding: 5px;
+  color: black;
+  width: 150px;
+  white-space: nowrap;
+}
+
+.input-field,
+.select-box {
+  display: table-cell;
+  width: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.ns-button-container {
+  display: table-cell;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: right;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.ns-form-button {
+  margin-left: 5px; /* Add some spacing between buttons */
+  color: black;
+  background-color: #fff;
+  border: 1px solid #005d58;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.ns-sub-container2 {
+  display: flex;
+}
+
+.ns-left-sub-container {
+  flex: 1;
+}
+
+.ns-right-sub-container {
+  flex: 3;
+}
+
+.ns-heading {
+  background-color: #fff7e6;
+  /* color: whitesmoke; */
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  height: 20px;
+  /* border: 1px solid #a0e7e5; */
+}
+
+.h4 {
+  margin: 0;
+}
+
+.ns-assign-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1px;
+}
+
+.ns-assign-table th, .ns-assign-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.ns-assign-table td {
+  height: 30px;
+}
+.ns-assign-table th {
+  background-color:#fff7e6;
+}
+
+/* .ns-assign-table tr:nth-child(even) td {
+  background-color: #e6f7ff; 
+} */
+.ns-assign-table tr:hover td {
+  background-color: #ddd;
+}
+.ns-assign-table th:first-child,
+.ns-assign-table td:first-child {
+  border-left: 2px solid #9deae4; /* Highlight column lines */
+}
+
+.ns-assign-table th + th,
+.ns-assign-table td + td {
+  border-left: 2px solid #8ab5b3;
+}
+.ns-assign-table tr {
+  height: 30px;
+}
+.ns-nurse-assigned-table {
+  width: 100%;
+}
+
+.ns-nurse-assigned-table table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.ns-nurse-assigned-table th,
+.ns-nurse-assigned-table td {
+  border: 1px solid bisque;
+  padding: 8px;
+}
+
+.ns-nurse-assigned-table th {
+  background-color: #fff;
+}
+
+.ns-scheduling {
+  background-color: #fff7e6;
+  display: flex;
+  flex-direction: row;
+  /* font-family: Arial, sans-serif; */
+  min-height: 30px;
+  margin-top: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ns-scheduling label {
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.ns-scheduling input[type="datetime-local"] {
+  height: 15px;
+}
+.duration-box {
+  background-color: f0f0f0;
+  padding: 0.5px;
+  height: 15px;
+  align-items: center;
+  border: 1px solid #222222;
+}
+.duration-box p {
+  font-size: smaller;
+}
+
+.duration-box span {
+  margin-left: 1rem;
+}
+
+.ns-scheduling-buttons {
+  display: flex;
+  margin: 2px 2px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 5px 5px;
+  justify-content: space-between;
+}
+
+.ns-scheduling-buttons button:hover {
+  background-color: #eee;
+}
+.ns-scheduling-buttons schedule {
+  color: #9deae4;
+}
+
+.ns-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  flex-direction: row;
+}
+
+.ns-card {
+  width: calc(
+    33% - 20px
+  ); /* Adjust width based on desired card size and spacing */
+  background-color: var(--primary-color); /* Use defined variable */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.ns-card p {
+  color: var(--text-color); /* Use defined variable */
+}
+.ns-card:hover {
+  color: #7f9c9b;
+}
+
+/* Assuming your desired color palette */
+.primary-color {
+  background-color: #f0fff0; /* Light green */
+}
+
+.secondary-color {
+  color: #3bb77e;
+} /* Dark green */
+
+.text-color {
+  color: #222222;
+} /* Black */
+
+.ns-assign-table tr.selected {
+  background-color: lightblue;
+}
+.ns-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.ns-schedule-table td {
+  width: 14.28%; /* Set each column to occupy 1/7th of the table width */
+  border: 1px solid #222222; /* Add borders for better visualization */
+}
+.selected-card {
+  border: 2px solid #005d58; /* Change border color to highlight */
+  box-shadow: 0 0 5px rgba(0, 93, 88, 0.5); /* Add shadow effect for emphasis */
+}

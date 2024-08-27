@@ -1,0 +1,62 @@
+{  
+    
+    "user": {
+      "SL":1,
+      "Users": 12106,
+      "Firstname": "JOHN",
+      "MiddleName": "DOE",
+      "LastName":"PARAYIL",
+      "Eid,expiry":2098,
+      "email": "john.doe@example.com",
+      "Job": "DOCTOR",
+      "Role": "Primary provider",
+      "TypeMode":"xyz",
+      "License": "kl979",
+      "Validity": "90days 17/06/2024",
+      "IdPwd": "pwt011",
+      "CsAllowSt": "No,Inactive",
+      "SessionExp":3600,
+      "MFNo": 456,
+      "CreationDate": "dd/mm/yyyy "
+      
+    },
+    "user2": {
+        "SL": 2,
+        "Users": 15000,
+        "Firstname": "Jane",
+        "MiddleName": "Alice",
+        "LastName": "Smith",
+        "Eid,expiry": 2100,
+        "email": "jane.smith@example.com",
+        "Job": "nurse",
+        "Role": "secondary provider",
+        "TypeMode": "abc",
+        "License": "xyz123",
+        "Validity": "60 days, 15/07/2024",
+        "IdPwd": "pwd123",
+        "CsAllowSt": "Yes,Active",
+        "SessionExp": 7200,
+        "MFNo": 789,
+        "CreationDate": "20/03/2024"
+      },
+      "user3": {
+        "SL": 3,
+        "Users": 20000,
+        "Firstname": "Michael",
+        "MiddleName": "David",
+        "LastName": "Johnson",
+        "Eid,expiry": 2099,
+        "email": "michael.johnson@example.com",
+        "Job": "Doctor",
+        "Role": "Primary provider",
+        "TypeMode": "def",
+        "License": "abc456",
+        "Validity": "45 days, 10/08/2024",
+        "IdPwd": "password",
+        "CsAllowSt": "Yes,Active",
+        "SessionExp": 5400,
+        "MFNo": 123,
+        "CreationDate": "10/02/2024"
+      }
+    
+  }

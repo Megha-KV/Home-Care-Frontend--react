@@ -1,0 +1,110 @@
+.login-container {
+  background-image: url('../../assets/image/hocareimage2.jpg');
+  height: 100%;
+  padding-top: 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.login-form {
+   /* border: 2px solid gray;  */
+  color: #189ab4;
+  padding: 30px 40px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 500px;
+ 
+}
+
+.login-form.logged-in {
+  border: none;
+}
+
+.login-form h1 {
+  font-size: 50px;
+  text-align: center;
+  color:white;
+  /* font-family: inter; */
+  margin-top: 20px;
+}
+
+.username-label,
+.password-label {
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin: 5px 0;
+  /* font-family: inter; */
+}
+
+.input-box {
+  width: 400px;
+  /* margin: 12px 0 14px; */
+}
+
+.input-box input {
+  /* width: 100%;
+  height: 100%; */
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 2px solid #B1D4E0;
+  font-size: 16px;
+  color:#0C2D48;
+  padding: 20px;
+}
+
+.input-box input::placeholder {
+  opacity: 0.5;
+}
+
+.login-form-button {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 40px;
+  background-color: #e55e29;
+  font-size: 20px;
+  color: #fff;
+  /* font-family: inter; */
+}
+
+.login-body {
+  background-color: #843d83;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  padding: 1rem !important;
+  gap: 1rem;
+
+}
+/* 
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 40px; 
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; 
+  cursor: pointer;
+} */
+
+.password-toggle{
+  position: absolute;
+  right: 13px;
+  top: 42px;
+}
+
+
+.password-toggle svg {
+  font-size: 1.2em; 
+} 

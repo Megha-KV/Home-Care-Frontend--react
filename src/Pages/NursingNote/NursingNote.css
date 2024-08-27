@@ -1,0 +1,203 @@
+.nurse-note-container {
+  display: flex;
+}
+
+.nurse-note {
+  margin-top: 5px;
+  flex: 1;
+}
+
+.entry-card {
+ 
+  transition: 0.3s;
+  width: 600px;
+  height: 250px;
+  margin-left: 10px;
+}
+
+.container {
+  flex: 1;
+  padding: 2px 16px;
+  flex-direction: column;
+  display: flex;
+}
+
+.inputs-container{
+  margin-top: 1rem;
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-table,
+.table-header,
+.table-header .second-column,
+.table-cell,
+.table-cell .second-column {
+  border: 1px solid rgb(36, 34, 34);
+  border-collapse: collapse;
+  height:100%;
+}
+.table-header,
+.table-header .second-column,
+.table-cell,
+.table-cell .second-column {
+  font-size: 15px;
+}
+
+
+
+.table-header,
+.table-cell {
+  background-color: white;
+  min-width: 120px;
+}
+
+.table-header {
+  height: 20px !important;
+}
+
+.table-cell {
+  height: 70px;
+}
+
+.second-column {
+  width: 600%;
+}
+
+.history-container {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(48, 42, 42, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  /* margin-left: 20px; */
+  background-color: white;
+}
+
+.nursing-notes-history-list {
+  width: 100%;
+  font-size: 14px;
+}
+
+.nn-history-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ddd;
+  height: 40px;
+  color: #ccc;
+  margin-right: 1rem;
+}
+
+.nn-history-content {
+  display: flex;
+}
+
+.nn-history-field {
+  margin-right: 10px;
+}
+
+.nursing-note-card {
+  width: 400px;
+  height: 225px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* .nurse-info {
+  font-weight: bold;
+} */
+
+.date-time {
+  color: black;
+}
+
+.card-body {
+  flex: 1;
+}
+.card-body .h4 {
+  margin-bottom: 5rem;
+}
+
+.nursing-note-textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 0rem;
+  background-color: white;
+
+  font-size: 15px;
+}
+
+.card-footer {
+  display: flex;
+  margin-top: 1rem;
+}
+
+/* Style for the containing div */
+.entry-container {
+  border: 1px solid #ccc; /* Border for better visibility */
+  padding: 10px; /* Padding for spacing */
+  margin-bottom: 10px; /* Margin to separate entries */
+}
+
+/* Style for nurse name */
+.entry-container .nurse-name {
+  color: #333; /* Text color */
+}
+
+/* Style for date */
+.entry-container .date {
+  color: #666; /* Text color */
+  margin-left: 5px; /* Margin to separate nurse name and date */
+}
+.save{
+  background-color: #0bc648;
+}
+.new{
+  background-color: #158e9bf6;
+}
+.update{
+  background-color: #ff7f00;
+}
+.delete{
+  background-color: hsl(354, 73%, 44%);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em; 
+}
+
+.custom-input {
+  height: 140px; 
+  opacity: 0;
+  transition: opacity 0.3s; 
+  border: 1px solid  white;
+  border-radius: 0%;
+}   
+.custom-input.visible {
+  opacity: 1; /* Make the input visible when needed */
+}
+
+
+

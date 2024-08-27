@@ -1,0 +1,89 @@
+
+.sidebar {
+  position: relative; /* Set position to relative */
+  width: 60px; /* Set initial width */
+  overflow: hidden; /* Hide overflow content */
+  background-color: #190d17; /* Background color of the sidebar */
+  flex: 0 0 60px;
+  max-width:  60px;
+  min-width: 60px;
+  transition: width 0.3s; /* Add transition for smooth width change */
+}
+
+/* Expand sidebar on hover */
+.sidebar:hover {
+  width: 200px;
+ 
+}
+
+/* Menu bar */
+.menu-bar {
+  position: absolute; /* Set position to absolute */
+  top: 0; /* Position at the top of the sidebar */
+  left: 60px; /* Adjust the distance from the left side */
+  width: 100px; /* Set width to match expanded sidebar */
+  background-color: #001529; /* Background color */
+  display: none; /* Hide menu bar by default */
+}
+
+/* Display menu bar on hover */
+.sidebar:hover .menu-bar {
+  display: block;
+  
+}
+
+/* Toggle theme button */
+.toggle-theme-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.toggle {
+  margin-left: 15px;
+}
+
+/* Logo */
+.logo {
+  height: 32px; /* Set height of logo */
+  background: rgba(255, 255, 255, 0.2); /* Background color of logo */
+  margin: 16px; /* Add margin around the logo */
+}
+
+/* Remove default padding */
+.ant-layout-content {
+  padding: 0;
+}
+
+/* Submenu */
+.ant-menu-dark .ant-menu-submenu-popup {
+  background-color: #001529; 
+}
+
+/* Text color of submenu title */
+.ant-menu-dark .ant-menu-submenu-title {
+  color: #fff;
+}
+
+/* Font size of menu items and submenu titles */
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-submenu-title {
+  font-size: 16px;
+  background-color: #ff7f00;
+
+}
+
+/* Font size of collapsed menu icons */
+.ant-menu-inline-collapsed .anticon {
+  font-size: 24px;
+}
+
+/* Adjust submenu title padding and remove margin */
+.ant-menu-submenu-title {
+  padding: 0;
+  margin: 0;
+}

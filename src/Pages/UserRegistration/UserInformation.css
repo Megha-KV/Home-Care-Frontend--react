@@ -1,0 +1,178 @@
+/* .userinfo {
+  display: flex; 
+  margin-top: 20px;
+  padding: 20px 20px;
+} */
+
+.table-container-user {
+  margin-top: 20px;
+  padding: 20px 20px;
+  flex: 1;
+}
+
+.userform {
+  flex: 5;
+  display: flex;
+  margin-right: 15px;
+}
+
+.user-form-wrapper{
+  display: flex;
+  gap: 1rem;
+}
+
+.user-table {
+  width: 20%;
+  height: 350px;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+}
+
+.user-table td{
+  color: black !important;
+ 
+}
+
+.user-table th
+ {
+  color: white !important;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-th {
+  background-color: #05445e;
+  border-right: 2px solid white;
+  color: white;
+}
+
+
+.user-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.user-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.save{
+  background-color: #0bc648;
+}
+.new{
+  background-color: #158e9bf6;
+}
+.update{
+  background-color:  #ff7f00;
+}
+.delete{
+  background-color: hsl(354, 73%, 44%);
+}
+
+.user-buttons button:hover {
+  background-color: beige;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Added box-shadow */
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.labels .user-label {
+  margin-bottom: 5px; /* Added dot for class selector */
+}
+
+.form-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.user-label {
+  width: 200px;
+}
+
+.form-group {
+  width: 300px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.user-form,
+.userform-view {
+  margin-left: 20px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.image-box {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.file-input {
+  display: none;
+}
+
+.browse-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  margin-top: 2px;
+  color: black;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.browse-button:hover {
+  background-color: #1bbff0c1;
+}
+
+/* .password-links {
+  margin-top: 1rem;
+  float: right;
+}
+
+.password-links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.password-links a:hover {
+  text-decoration: underline;
+} */
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}

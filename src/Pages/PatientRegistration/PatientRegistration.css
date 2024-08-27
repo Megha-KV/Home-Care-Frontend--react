@@ -1,0 +1,332 @@
+/* .patient-reg-wrapper{
+  padding: .5rem;
+} */
+
+
+
+/* For headings */
+h2 {
+  font-size: 18px; /* Adjust the font size of headings */
+}
+
+/* For labels */
+.pr-labels,
+.pi-labels,
+.kin-label,
+.contact-details label,
+.insurance-form-container label {
+  font-size: 12px; /* Adjust the font size of labels */
+}
+
+/* For inputs */
+.pr-input,
+.pr-select,
+.kin-input,
+.kin-select,
+.contact-details input[type="text"],
+.contact-details input[type="email"],
+.contact-details input[type="tel"],
+.contact-details select,
+.insurance-form-container input,
+.insurance-form-container select {
+  font-size: 12px; /* Adjust the font size of inputs */
+}
+
+.pi-photo {
+  font-size: 12px; /* Adjust the font size of the "Upload Photo" text */
+}
+
+/* --------------------------------
+patient information
+-------------------------------- */
+.patient-information {
+  margin-bottom: 10px;
+}
+
+.pi-row {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+
+.pi-labels,
+.pi-photo {
+  min-width: 200px;
+  margin-right: 5px;
+  text-align: left;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.patient-information .pr-input,
+.patient-information .pr-select {
+  width: calc(40% - 5px); /* Equal width for input and select, minus margin */
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.pi-row .pr-date {
+  width: 10%;
+  border: 1px solid #ccc;
+}
+
+.pi-row .id-select {
+  width: 5%;
+  border: 1px solid #ccc;
+}
+.pi-row .firstname-input,
+.pi-row .middlename-input,
+.pi-row .lastname-input {
+  width: calc(25.1% - 5px); /* Equal width for name inputs, minus margin */
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.emirates-id,
+.unified-number {
+  width: 40%; /* Equal width for these fields */
+  margin-right: 10px;
+}
+
+.emirates-id:last-child {
+  margin-right: 0;
+}
+
+#age,
+#sex  {
+  width: 34.6%; 
+}
+
+/* ---------------------------------------------------
+  patient registration
+  --------------------------------------------------- */
+.pr-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  column-gap: 20px;
+}
+
+.pr-form-container .pr-labels {
+  min-width: 200px;
+  margin-right: 5px;
+  text-align: left;
+  margin-left: 10px;
+  align-self: center;
+
+}
+.pr-form-container .pr-select {
+  width: calc(30% - 5px); /* Equal width for input and select, minus margin */
+  border: 1px solid #ccc;
+  height: 100%;
+  padding: 5px;
+}
+.pr-form-container .pr-input {
+  width: calc(30% - 5px); /* Equal width for input and select, minus margin */
+  border: 1px solid #ccc;
+  height: 100%;
+  padding: 5px;
+}
+.inputs-row {
+  display: flex;
+  /* height: 28.4; */
+  gap: 0;
+  align-items: center;
+}
+.inputs-row .pr-labels {
+  min-width: 180px;
+  margin-right: 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+.inputs-row .pr-input,
+.inputs-row .pr-select {
+  width: calc(30% -  5px);
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+/* ---------------------
+  kin
+  ---------------------- */
+.kin-input-row {
+  display: flex; /* Make the input row a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to next line if needed */
+  margin-bottom: 15px; /* Add some space between rows */
+}
+
+.kin-input-row .kin-label {
+  min-width: 15px;
+  margin-right: 5px;
+  text-align: left;
+  margin-left: 10px;
+  align-self: center;
+}
+.kin-input-row .kin-input,
+.kin-input-row .kin-select {
+  width: calc(26.5% - 5px);
+  margin-bottom: 1px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* --------------------------------------------------------
+  contact details
+  -------------------------------------------------------- */
+
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-details label{
+  align-self: center;
+}
+
+.contact-details div {
+  margin-right: 10px;
+  display: flex;
+}
+ 
+.address-row .kin-select,
+.address-row .kin-input {
+  width: 100%; 
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.email-row .kin-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+
+/* 
+.contact-details label {
+  min-width: 200px;
+  margin-right: 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.contact-details select,
+.contact-details input {
+  width: calc(40% - 5px);
+  padding: 5px;
+  margin-bottom: 1px;
+  border: 1px solid #ccc; 
+}
+
+#address-type {
+  width: auto;
+}
+
+.contact-details select[id="residence"] {
+  width: 100%;
+}
+.contact-details input[id="city"] {
+  width: 100%;
+}
+.contact-details input[id="contact-no"],
+.contact-details input[id="work-no"] {
+  width: 100%;
+}
+.contact-details input[id="email"] {
+  width: (40%-5px); */
+
+
+/* -----------------------------------------------------------------
+  insurance- details
+  ----------------------------------------------------------------- */
+
+.insurance-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Allow items to wrap to next line if needed */
+  grid-column-gap: 1rem;
+}
+
+.insurance-form-container label {
+  text-align: left;
+  align-self: center;
+}
+
+.insurance-form-container select {
+  width: calc(30% - 5px); /* Equal width for input and select, minus margin */
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+.insurance-form-container input {
+  width: calc(30% - 5px); /* Equal width for input and select, minus margin */
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+.insurance-sub {
+  height: 28.4px;
+  padding: 0 1rem;
+  display: flex;
+  gap: 0.75 rem;
+}
+
+.insurance-label {
+  width: 200px;
+}
+
+.pr-card-button {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-end;
+  margin-top: 1rem;
+  
+}
+
+.pr-edit-button,
+.pr-delete-button,
+.pr-new-button,
+.pr-save-next-button {
+  padding: 1rem 1.5rem; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 0.5rem; 
+  margin-bottom: 0.1rem; 
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.pr-edit-button .pr-edit-button-icons,
+.pr-delete-button .pr-delete-button-icons,
+.pr-new-button .pr-new-button-icons,
+.pr-save-next-button .pr-save-next-button-icons {
+  color: #fff; 
+}
+
+.pr-edit-button {
+  background-color: #ff7f00;
+  color: #fff;
+}
+
+.pr-delete-button {
+  background-color: hsl(354, 73%, 44%);
+  color: #fff;
+}
+
+.pr-save-next-button {
+  background-color: #0bc648;
+  color: #fff;
+}
+
+.pr-new-button {
+  background-color: #158e9bf6;
+  color: #fff;
+}
+h2{
+  margin-bottom: 8px;
+}
+hr{
+  margin-bottom: 8px;
+}

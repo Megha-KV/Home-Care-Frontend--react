@@ -1,0 +1,130 @@
+.appointment{
+    display: flex;
+    height: 78%;
+}
+
+.appointment-container{
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.appointment-1 {
+  margin-top: 50px;
+}
+
+.appointment .head {
+  color: black;
+  flex-direction: column-reverse;
+}
+
+.text {
+  width: 10%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-color: black;
+  margin-left: 10px;
+  text-align: center;
+ 
+}
+.input-container {
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+  display: flex;
+}
+
+.patient-table-header {
+  height: fit-content;
+}
+
+
+.date-text {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc; 
+  margin-right: 3px;
+}
+
+.button-box {
+  padding: 7px;
+  border: 1px solid black;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: 30px;
+  height: 30px;
+  margin-top: 10px;
+  box-sizing: 30px;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.search-input {
+  background-color: white;
+  width: 30%;
+  border-radius: 30px;
+  height: 2rem;
+  padding: 0 15px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.clear-btn{
+  background-color: white;
+  width: 10%;
+  border: 1px solid black;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 1rem;
+  /* padding: 7px; */
+  box-sizing: 30px;
+}
+table {
+  width: 50%;
+  height: 200px;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+table th{
+    text-align: left;
+    background-color: #fff7e6;
+}
+table td {
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+tr {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.first-tr {
+  width: auto;
+  padding:0.5rem;
+  color: #ff6c00;
+  text-align: left;
+}
+.second-box{
+    background-color: white;
+    
+}
+
+.table-box {
+  
+  margin-top: 20px;
+  width: 200px;
+}
+
+.react-calendar{
+    margin-top: 3rem;
+}

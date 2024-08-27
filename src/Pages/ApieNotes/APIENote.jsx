@@ -30,6 +30,9 @@ function APIENote() {
     // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
+  console.log("apie note");
+  console.log("apie note");
+  
   const validateNote = (note) => {
     const newErrors = {};
     if (!note.assessment) {
